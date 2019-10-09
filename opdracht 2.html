@@ -17,16 +17,18 @@ robotArm.drop();
 robotArm.moveLeft();
 robotArm.moveLeft();
 robotArm.grab();
- robotArm.moveRight();
- robotArm.moveRight();
- robotArm.drop();
-  for (var movement = 9; movement <= 6; movement++){
-  	robotArm.moveleft();
+robotArm.moveRight();
+robotArm.moveRight();
+robotArm.drop();
+for (i = 1; i <=5; i++){
+	robotArm.moveLeft();
+}
+robotArm.grab();
+for (var movement = 5; movement <= 9; movement++){
+  	robotArm.moveRight();
   }
- 
- robotArm.drop();
-
-  robotArm.run();
+  robotArm.drop();
+robotArm.run();
 </script>
     </body>
 </html>
