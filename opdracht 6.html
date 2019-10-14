@@ -15,15 +15,17 @@
             robotArm.grab();
             robotArm.moveRight();
             robotArm.drop();
+            for(var i = 1; i <= 8; i++){
             for (var verplaats = 1; verplaats <= 2; verplaats++){
             	robotArm.moveLeft();
             }
             robotArm.grab();
- for (var verplaats = 1; verplaats <= 2; verplaats++){
+ for (var verplaats = 1; verplaats <= 1; verplaats++){
             	robotArm.moveRight();
             }
             robotArm.drop();
-             robotArm.grab();
+        }
+           
 
 
 
